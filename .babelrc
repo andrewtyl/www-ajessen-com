@@ -1,5 +1,0 @@
-{
-    "plugins": [
-        [ "babel-plugin-webpack-aliases", { "config": "./webpack.config.js" } ] 
-    ]
-}
