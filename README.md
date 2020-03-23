@@ -1,6 +1,7 @@
 #AJessen.com
 ##Owned, Created by, and Managed by Andrew Jessen-Tyler
 Andrew Jessen-Tyler's personal portfolio and business homepage. AJessen is the Sole Proprietorship under Andrew Jessen-Tyler.
+[![Build Status](https://travis-ci.org/rjgates3/thingful-Andrew-Richard.svg?branch=master)](https://travis-ci.org/rjgates3/thingful-Andrew-Richard)
 
 ##Scripts
 npm start - starts web server and opens it in a browser
