@@ -8,20 +8,23 @@ import Services from './components/services'
 import About from './components/about'
 import Contact from './components/contact'
 import Footer from './components/footer'
-import {BrowserRouter as BrowserRouter, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div id="app">
+      <Router>
         <Header />
-        <Home />
-        <Services />
-        <Projects />
-        <About />
-        <Contact />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/home" component={Home} />
+          <Route path="/services" component={Services} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
         <Footer />
-      </div>
+      </Router>
     )
   }
 }

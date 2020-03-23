@@ -1,4 +1,7 @@
 import React from 'react'
+import '../styles//App.css';
+import '../styles/normalize.css';
+import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
     render() {
@@ -8,11 +11,23 @@ class Header extends React.Component {
                     <img src={require('../assets/logo-raw.png')} alt="Ajessen Logo" />
                 </div>
                 <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Services and Skills</a>
-                    <a href="#">Projects</a>
-                    <a href="#">About Me</a>
-                    <a href="#">Contact Me</a>
+                    <ul>
+                        <Link to="/">
+                            <li>Home</li>
+                        </Link>
+                        <Link to="/services">
+                            <li>Services and Skills</li>
+                        </Link>
+                        <Link to="/projects">
+                            <li>Projects</li>
+                        </Link>
+                        <Link to="/about">
+                            <li>About Me</li>
+                        </Link>
+                        <Link to="/contact">
+                            <li>Contact Me</li>
+                        </Link>
+                    </ul>
                 </nav>
             </header>
         )
