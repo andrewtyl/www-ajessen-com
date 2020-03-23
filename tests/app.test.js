@@ -1,8 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+//Temporary Testing Script provided by thevangelist (https://gist.github.com/thevangelist/e2002bc6b9834def92d46e4d92f15874#file-my-component-spec-js)
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+import React from 'react';
+import { shallow } from 'enzyme';
+import App from '../src/App';
+
+const wrapper = shallow(<App/>);
+
+describe('(Component) MyComponent', () => {
+  it('renders without exploding', () => {
+    expect(wrapper).to.have.length(1);
+  });
 });
