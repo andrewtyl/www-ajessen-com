@@ -7,9 +7,11 @@ class Header extends React.Component {
     render() {
         return (
             <header>
-                <div id="logo">
-                    <img src={require('../assets/logo-raw.png')} alt="Ajessen Logo" />
-                </div>
+                <Link to="/">
+                    <div id="logo">
+                        <img src={require('../assets/logo-raw.png')} alt="Ajessen Logo" />
+                    </div>
+                </Link>
                 <nav>
                     <ul>
                         <Link to="/">
