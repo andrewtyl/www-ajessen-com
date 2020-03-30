@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles//App.css';
+import '../styles/App.css';
 import '../styles/normalize.css';
 import { Link } from 'react-router-dom';
 
@@ -15,7 +15,7 @@ class Header extends React.Component {
                 <nav>
                     <ul>
                         <Link to="/">
-                            <li>Home</li>
+                            <li class="nav-current">Home</li>
                         </Link>
                         <Link to="/services">
                             <li>Services and Skills</li>
