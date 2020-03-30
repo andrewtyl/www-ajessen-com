@@ -8,7 +8,7 @@ class Header extends React.Component {
         return (
             <header>
                 <Link to="/">
-                    <div id="logo">
+                    <div id="ajessen-logo">
                         <img src={require('../assets/logo-raw.png')} alt="Ajessen Logo" />
                     </div>
                 </Link>
