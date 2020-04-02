@@ -1,6 +1,8 @@
 {
   "name": "www.ajessen.com",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "author": "Andrew Jessen-Tyler",
+  "homepage": "http://testing.ajessen.com/",
   "license": "Apache-2.0",
   "licenses": [
     {
@@ -12,6 +14,12 @@
     "node": "10.16.3",
     "npm": "6.9.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewtyl/www.ajessen.com.git"
+  },
+  "keywords": ["react","ajessen","Andrew Jessen-Tyler"],
+  "main": "src/app.js", 
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
