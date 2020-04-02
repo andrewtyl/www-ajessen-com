@@ -26,7 +26,7 @@ class Header extends React.Component {
                 <nav>
                     <ul>
                         <Link to="/">
-                            <li class="nav-current">Home</li>
+                            <li className="nav-current">Home</li>
                         </Link>
                         <Link to="/services">
                             <li>Services and Skills</li>
@@ -57,7 +57,7 @@ class Header extends React.Component {
                             <li>Home</li>
                         </Link>
                         <Link to="/services">
-                            <li class="nav-current">Services and Skills</li>
+                            <li className="nav-current">Services and Skills</li>
                         </Link>
                         <Link to="/projects">
                             <li>Projects</li>
@@ -88,7 +88,7 @@ class Header extends React.Component {
                             <li>Services and Skills</li>
                         </Link>
                         <Link to="/projects">
-                            <li class="nav-current">Projects</li>
+                            <li className="nav-current">Projects</li>
                         </Link>
                         <Link to="/about">
                             <li>About Me</li>
@@ -119,7 +119,7 @@ class Header extends React.Component {
                             <li>Projects</li>
                         </Link>
                         <Link to="/about">
-                            <li class="nav-current">About Me</li>
+                            <li className="nav-current">About Me</li>
                         </Link>
                         <Link to="/contact">
                             <li>Contact Me</li>
@@ -150,7 +150,7 @@ class Header extends React.Component {
                             <li>About Me</li>
                         </Link>
                         <Link to="/contact">
-                            <li class="nav-current">Contact Me</li>
+                            <li className="nav-current">Contact Me</li>
                         </Link>
                     </ul>
                 </nav>
