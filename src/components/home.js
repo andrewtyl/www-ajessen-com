@@ -2,6 +2,7 @@ import React from 'react'
 
 
 class Home extends React.Component {
+
     render() {
         return (
             <div id="home">
@@ -17,7 +18,7 @@ class Home extends React.Component {
             <article id="homepage_featured_project">
                 <h3>Featured Project: This Website!</h3>
                 <p>This website has so far been my most ambitious project I've completed since graduating Thinkful. While not heavy on the React features, the CSS has been worked on extensively to provide a mobile-first view with seemless transitions between each "tab." I expect to continue to update it as my skills are refined and improve over the coming years.</p>
-                <img src="https://picsum.photos/900/600" alt="Featured Project"></img>
+                <img src="https://picsum.photos/700/525" alt="Featured Project"></img>
             </article>
             </div>
         )

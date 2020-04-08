@@ -10,20 +10,21 @@ Basic Text: Times New Roman
 html {
   font-family: "Times New Roman", Times, serif;
   background-color: #cccccc;
+  overflow-x: hidden;
 }
 
 h1 {
   font-family: "Baloo Tamma 2", cursive;
 }
 
-h2 {
+h2, h3, h4, h5, h6 {
   font-family: "DM Serif Text", cursive;
 }
 
 footer {
   text-align: center;
   margin-bottom: 10px;
-  margin-top: auto;
+  margin-top: 25px;
   bottom: 10px;
   left: auto;
   right: auto;
@@ -68,14 +69,7 @@ header > nav > ul > a:hover > li {
   background-color: #a30000;
 }
 
-header > nav > ul > a > .nav-current {
-  text-decoration: none !important;
-  cursor: default;
-  border: black 1px solid;
-  box-shadow: #6e0000 2px 0px;
-  background-color: #a30000;
-}
-header > nav > ul > a:hover > .nav-current {
+.nav-current > li {
     text-decoration: none !important;
     cursor: default;
     border: black 1px solid;
@@ -131,7 +125,7 @@ header > nav > ul {
   padding-left: 2.5%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   margin-top: auto;
 }
 
@@ -148,4 +142,25 @@ header > nav > ul {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 25%;
+}
+
+#home {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+}
+
+#home > main {
+  width: 60%;
+}
+
+#home > main > * {
+  margin-left: 40%;
+  margin-right: auto;
+}
+
+#homepage_featured_project {
+  width: 40%;
 }
