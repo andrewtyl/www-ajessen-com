@@ -1,16 +1,9 @@
 import React from 'react'
 import '../styles//App.css';
 import '../styles/normalize.css';
-import { Link, useLocation, NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 class Header extends React.Component {
-
-    constructor(props) {
-        super();
-        this.state = {
-            url: "/"
-        }
-    }
 
     render() {
 
@@ -21,10 +14,6 @@ class Header extends React.Component {
             { path: '/about', text: 'About Me', classname: "" },
             { path: '/contact', text: 'Contact Me', classname: "" },
         ]
-
-
-        for (let i = 0; i < navItems.length; i++) {
-        }
 
         return (
             <header>

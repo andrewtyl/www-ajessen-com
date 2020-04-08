@@ -163,4 +163,10 @@ header > nav > ul {
 
 #homepage_featured_project {
   width: 40%;
+  height: 675px;
+}
+
+#main_holder {
+  border-bottom: 1px solid black; /* TEMPORARY */
+  height: 675px;
 }

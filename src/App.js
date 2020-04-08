@@ -16,12 +16,14 @@ class App extends Component {
       <Router>
         <Header />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/home" component={Home} />
-          <Route path="/services" component={Services} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
+          <div id="main_holder">
+            <Route path="/" exact component={Home} />
+            <Route path="/home" component={Home} />
+            <Route path="/services" component={Services} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+          </div>
         </Switch>
         <Footer />
       </Router>
