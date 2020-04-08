@@ -6,6 +6,7 @@ Basic Text: Times New Roman
 */
 
 @import url("https://fonts.googleapis.com/css?family=Baloo+Tamma+2|DM+Serif+Text&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 
 html {
   font-family: "Times New Roman", Times, serif;
@@ -14,10 +15,14 @@ html {
 }
 
 h1 {
+  font-family: "Courgette", cursive;
+}
+
+h2 {
   font-family: "Baloo Tamma 2", cursive;
 }
 
-h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-family: "DM Serif Text", cursive;
 }
 
@@ -156,14 +161,42 @@ header > nav > ul {
   width: 60%;
 }
 
-#home > main > * {
+#home > main > h1 {
+  margin-left: 30%;
+  margin-top: 6vw;
+  font-size: 3vw;
+  color: #5e5e5e;
+  letter-spacing: 1vw;
+  margin-bottom: 2vw;
+  text-shadow: 7px 5px silver;
+}
+
+#home > main > h2 {
+  margin-left: 35%;
+  margin-top: auto;
+  color: #5e5e5e;
+  margin-bottom: 0px;
+  font-size: 2vw;
+  text-shadow: 7px 5px silver;
+}
+
+#home > main > ul {
   margin-left: 40%;
   margin-right: auto;
+  margin-top: 3vw;
+}
+
+#home > main > ul > li {
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
+  color: #5e5e5e;
+  text-shadow: 5px 3px silver;
+  
 }
 
 #homepage_featured_project {
   width: 40%;
-  height: 675px;
+  max-height: 675px;
 }
 
 #main_holder {
@@ -171,3 +204,24 @@ header > nav > ul {
   height: 675px;
 }
 
+#homepage_featured_project > h3 {
+  font-size: 2vw;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#homepage_featured_project > img {
+  max-height: 400px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#homepage_featured_project > p {
+  font-size: 1vw;
+  margin-right: 25px;
+  text-align: justify;
+  text-indent: 2vw;
+}
