@@ -5,7 +5,7 @@ class Services extends React.Component {
         return (
             <main id="services">
                 <h1 style={{'text-align': 'center'}}>Services</h1>
-                <p style={{'text-align': 'center'}}>Under Development</p>
+                <p style={{'text-align': 'center'}}>Under Development...</p>
             </main>
         )
     }
