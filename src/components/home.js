@@ -8,7 +8,7 @@ class Home extends React.Component {
             <div id="home-temp">
                 <main>
                 <h1 style={{'text-align': 'center'}}>Home</h1>
-                <p style={{'text-align': 'center'}}>Under Development</p>
+                <p style={{'text-align': 'center'}}>Under Development...</p>
                 </main>
             </div>
         )
