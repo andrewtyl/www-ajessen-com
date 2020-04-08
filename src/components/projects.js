@@ -5,7 +5,7 @@ class Projects extends React.Component {
         return (
             <main id="projects">
                 <h1 style={{'text-align': 'center'}}>Projects</h1>
-                <p style={{'text-align': 'center'}}>Under Development...</p>
+                <p style={{'text-align': 'center'}}>Under Development</p>
             </main>
         )
     }
