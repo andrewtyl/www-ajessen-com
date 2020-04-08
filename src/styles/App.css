@@ -214,8 +214,10 @@ header > nav > ul {
 #homepage_featured_project > img {
   max-height: 400px;
   width: auto;
+  height: auto;
+  max-width: 400px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 25px;
   display: block;
 }
 
