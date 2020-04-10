@@ -38,31 +38,33 @@ let projectList = [
     },
     {
         title: "www.AJessen.com",
-        imgSrc: "https://picsum.photos/800/600",
-        //imgSrc: require('../assets/wwwajessencom.png'),
+        imgSrc: require('../assets/wwwajessencom.png'),
         imgAlt: "The project's webpage on AJessen.com.",
-        text: `This is a very simple Express.js boilerplate, used for starting new projects that run on Express.js. The read me includes instructions on setting up the boilerplate as well as deploying to Heroku.`,
-        URL: "https://github.com/andrewtyl/express-boilerplate_andrewtyl"
+        text: `This website has so far been my best looking front-end project I've completed since graduating Thinkful. While not heavy on the React features aside from routing and navLink, the CSS on desktop with an animated navBar was fun to work on. I do want to impliment a "carousel" feature later, which will improve not only the presentation on both desktop and mobile, but also the user experience on mobile devices. I expect to continue to update it as my skills are refined and improve over the coming years.`,
+        URL: "https://github.com/andrewtyl/www.ajessen.com"
     }
 
 ]
+projectList = projectList.reverse()
 
 
 class Projects extends React.Component {
-       render() {
+    render() {
         return (
             <main id="projects">
-                <h1 style={{'text-align': 'center'}}>Projects</h1>
-                {projectList.map(({title, imgSrc, imgAlt, text, URL}) => (
-                    <div className="project" key={title.replace(" ", "-")}>
-                        <h2>{title}</h2>
-                        <img src={imgSrc} alt={imgAlt} />
-                        <p>{text} You can find this project <a href={URL}>here</a>.</p>
-                    </div>
-                ))}
+                <h1 style={{ 'text-align': 'center' }}>Projects</h1>
+                <div id="projects-holder">
+                    {projectList.map(({ title, imgSrc, imgAlt, text, URL }) => (
+                        <div className="project" key={title.replace(" ", "-")}>
+                            <h2>{title}</h2>
+                            <img src={imgSrc} alt={imgAlt} />
+                            <p>{text} You can find this project <a href={URL}>here</a>.</p>
+                        </div>
+                    ))}
+                </div>
             </main>
         )
-       }
+    }
 }
 
 export default Projects
