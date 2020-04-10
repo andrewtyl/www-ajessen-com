@@ -277,7 +277,7 @@ header > nav > ul {
 }
 
 #services > #services_ul > li {
-  margin-top: 2vw;
+  margin-top: 1.2vw;
   font-size: 1.5vw;
 }
 
@@ -374,6 +374,54 @@ header > nav > ul {
   font-size: 3vw;
 }
 
+#contact-holder > ul {
+  margin-left: 10%;
+  margin-bottom: 15vw;
+}
+
 #contact-holder > ul > li {
-  list-style-type: '-';
+  list-style-type: none;
+  margin-bottom: 2vw;
+}
+
+#contact-holder > ul > li > p {
+  font-size: 2vw;
+}
+
+#contact-holder > ul > li > p > a {
+  color: blue;
+}
+
+#contact-holder > ul > li > p > a:active {
+  color: #551A8B
+}
+
+#contact-holder > ul > li > p > a:visited {
+  color: #551A8B
+}
+
+.contact-icons {
+  max-width: 200px;
+  height: auto;
+  width: 25vw;
+  margin-left: 0%;
+  cursor: pointer;
+}
+
+#github-contact-icon {
+  width: 3vw;
+  height: 3vw;
+  margin-left: 1vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#github-contact-logo {
+  margin-left: -1vw;
+}
+
+#github-contact-holder {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
 }
