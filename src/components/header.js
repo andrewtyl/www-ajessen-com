@@ -8,11 +8,11 @@ class Header extends React.Component {
     render() {
 
         let navItems = [
-            { path: '/', text: 'Home' , classname: ""},
-            { path: '/services', text: 'Services and Skills', classname: "" },
-            { path: '/projects', text: 'Projects', classname: "" },
-            { path: '/about', text: 'About Me', classname: "" },
-            { path: '/contact', text: 'Contact Me', classname: "" },
+            { path: '/', text: 'Home'},
+            { path: '/services', text: 'Services and Skills'},
+            { path: '/projects', text: 'Projects'},
+            { path: '/about', text: 'About Me'},
+            { path: '/contact', text: 'Contact Me',},
         ]
 
         return (
