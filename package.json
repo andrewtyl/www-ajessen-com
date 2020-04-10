@@ -18,8 +18,12 @@
     "type": "git",
     "url": "https://github.com/andrewtyl/www.ajessen.com.git"
   },
-  "keywords": ["react","ajessen","Andrew Jessen-Tyler"],
-  "main": "src/app.js", 
+  "keywords": [
+    "react",
+    "ajessen",
+    "Andrew Jessen-Tyler"
+  ],
+  "main": "src/app.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

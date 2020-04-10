@@ -8,6 +8,10 @@ Basic Text: Times New Roman
 @import url("https://fonts.googleapis.com/css?family=Baloo+Tamma+2|DM+Serif+Text&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 
+* {
+  z-index: 0;
+}
+
 html {
   font-family: "Times New Roman", Times, serif;
   background-color: #cccccc;
@@ -29,7 +33,7 @@ h3, h4, h5, h6 {
 footer {
   text-align: center;
   margin-bottom: 10px;
-  margin-top: 25px;
+  margin-top: 1.5vw;
   bottom: 10px;
   left: auto;
   right: auto;
@@ -40,7 +44,15 @@ footer {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 3vw;
+  background-color: #cccccc;
+  z-index: 1;
+}
+
+footer > p {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
 }
 
 header {
@@ -146,7 +158,7 @@ header > nav > ul {
 #github-footer-icon {
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 25%;
+  margin-left: 10px;
 }
 
 #home {
@@ -200,8 +212,7 @@ header > nav > ul {
 }
 
 #main_holder {
-  border-bottom: 1px solid black; /* TEMPORARY */
-  height: 675px;
+  height: auto;
 }
 
 #homepage_featured_project > h3 {
@@ -212,12 +223,12 @@ header > nav > ul {
 }
 
 #homepage_featured_project > img {
-  max-height: 400px;
+  max-height: 20vw;
+  max-width: 20vw;
   width: auto;
   height: auto;
-  max-width: 400px;
   margin-left: auto;
-  margin-right: 25px;
+  margin-right: auto;
   display: block;
 }
 
@@ -226,4 +237,24 @@ header > nav > ul {
   margin-right: 25px;
   text-align: justify;
   text-indent: 2vw;
+  line-height: 1.75vw;
+}
+
+#home-contact {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  margin-top: 2.5vw;
+  font-size: 2vw;
+}
+
+#home-contact > a {
+  text-decoration: underline;
+  color: #5e5e5e;
+}
+
+#home-contact > a:hover, a:visited, a:active {
+  text-decoration: underline;
+  color: #5e5e5e;
 }
