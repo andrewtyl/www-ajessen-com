@@ -12,11 +12,6 @@ Andrew Jessen-Tyler's personal portfolio and business homepage. AJessen is the S
 - npm run build - creates a build of the web app for deployment
   <br><br><br>
 
-##### Note
-
-You may see "www.ajessen.com" used through the code. While this is a valid URL of where the site is deployed, the canonical URL is "ajessen.com". This was only done to specify that there is no subdomain for this project. Additional websites may be deployed on other subdomains on ajessen.com.
-<br><br><br><br><br>
-
 ##### Licensing
 
 Copyright 2020 AJessen and Andrew Jessen-Tyler
