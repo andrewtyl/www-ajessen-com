@@ -9,6 +9,7 @@ import About from './components/about'
 import Contact from './components/contact'
 import Footer from './components/footer'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import FourOhFour from './components/404';
 
 class App extends Component {
   render() {
@@ -16,14 +17,13 @@ class App extends Component {
       <Router>
         <Header />
         <Switch>
-          <div id="main_holder">
             <Route path="/" exact component={Home} />
-            <Route path="/home" component={Home} />
-            <Route path="/services" component={Services} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-          </div>
+            <Route path="/home" exact component={Home} />
+            <Route path="/services" exact component={Services} />
+            <Route path="/projects" exact component={Projects} />
+            <Route path="/about" exact component={About} />
+            <Route path="/contact" exact component={Contact} />
+            <Route component={FourOhFour} />
         </Switch>
         <Footer />
       </Router>
