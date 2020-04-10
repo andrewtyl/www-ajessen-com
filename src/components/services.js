@@ -4,12 +4,12 @@ class Services extends React.Component {
     render() {
         return (
             <main id="services">
-                <h1 style={{ 'text-align': 'center' }}>Services</h1>
+                <h1>Services</h1>
                 <ul id="services_ul">
                     <li>Full Stack Web Development
                     <ul>
                         <li>HTML and CSS</li>
-                        <li>React.js</li>
+                        <li>React.js and React Native</li>
                         <li>Express.JS</li>
                         <li>PostgreSQL</li>
                     </ul>

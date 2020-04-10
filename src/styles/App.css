@@ -213,6 +213,7 @@ header > nav > ul {
 
 #main_holder {
   height: auto;
+  display: block;
 }
 
 #homepage_featured_project > h3 {
@@ -257,4 +258,44 @@ header > nav > ul {
 #home-contact > a:hover, a:visited, a:active {
   text-decoration: underline;
   color: #5e5e5e;
+}
+
+#services > {
+  display: block;
+}
+
+#services > h1 {
+  font-size: 3vw;
+  margin-left: 15%;
+}
+
+#services > #services_ul {
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: -1vw;
+  font-size: 1.5vw;
+}
+
+#services > #services_ul > li {
+  margin-top: 2vw;
+  font-size: 1.5vw;
+}
+
+#services > #services_ul > li > ul > li {
+  margin-top: .25vw;
+  font-size: 1vw;
+}
+
+#services > h3 {
+  margin-top: -3.5vw;
+  margin-bottom: 3vw;
+  margin-left: auto;
+  margin-right: 25%;
+  text-align: right;
+  font-size: 2vw;
+  display: block;
+}
+
+#services > h3 > a:active {
+  color: #551A8B
 }
