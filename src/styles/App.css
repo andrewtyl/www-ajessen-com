@@ -349,3 +349,22 @@ header > nav > ul {
 #projects-holder > .project > p > a:visited {
   color: #551A8B;
 }
+
+#about-andrew-img {
+  float: right;
+  width: 30%;
+  margin: 2.5%;
+  height: auto;
+}
+
+#about > p {
+  text-indent: 10%;
+  line-height: 2vw;
+  font-size: 1.2vw;
+  margin-left: 2.5%
+}
+
+#about > h1 {
+  margin-left: 30%;
+  font-size: 3vw;
+}
