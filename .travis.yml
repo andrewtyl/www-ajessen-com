@@ -4,6 +4,8 @@ deploy:
   app: www-ajessen-com
   on:
     branch: master
+    # :
+    edge: true
   provider: heroku
   api_key:
     secure: nduN0fr6y8NlQG6bepDjM2SCoTL/SO14LDgoqlJzSBnlDdZvnJuwnF0qGuh84+qHHSJft4/6KO5GeeGRuhtesaaK6xLBUVoD/ZlWn+8v6nV1+agIbqlPjV7/KIv+K91cY4XzDlLPak4g7JqL6DymEBxCjxmkQKpCal4+dwBLsOzU6yUR5g3pFWZMA8/2y40vMtDZd9/GpzQPstX33VwVtaPCmUQ8QbZygcHHQCfr++xOBgM6gvtP+wg3I9l04c2hwLyaSXECgYYPHMljmdntn55HQHOl2V1/bckxQpJMnIo8NYia52IDYpxQHuDYWfUHZ1zQrUiD/N8HvcNxI0FT06oyWEKP7y2TZKntEDYiio2Hr27OQJG9I/9yFjYsBZb5DN/M7QCF71G2rkABkAG5cYsUwwsF7t6WyrXmtHVyMa0EdnLLNyChDR2Cd2VpBsSaWCvGTL9vIzMj85ILQ9eHhfFTz/4cjIkFjWNqQ0j7dd6iB7KNM2aAi6PrgIhVeD3vvierhDJj2MtuhwaIr9Np2s4kNw3g3iG3jzAGkT1y3bpXHQPLyQreTh33LGXtr+2IJGdjPgPSXuAnXNh/NW+LHGXW7UXFqup7aRV+tASnLMksXfPC39q5TNZKQm432lUEuwNE7v/WHd3nWJLCV4WnREqyTOwSs71Pmlo0hF//OUA=
