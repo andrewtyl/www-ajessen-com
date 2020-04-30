@@ -19,7 +19,7 @@ class Home extends React.Component {
                 <article id="homepage_featured_project">
                     <h3>Featured Project: Contact Tracker (API)</h3>
                     <img src={require('../assets/contactTrackerAPI.png')} alt="Featured Project"></img>
-                    <p>This Express App is used for storing contacts securely in a PostgreSQL server. It uses AES256 encryption to store all the contact information The Express App also uses HTTPS and will enforce connections to use it. If you want to try this yourself, you will need to be manually registered. Contact me if you are interested. You can view the full source code <a href="https://github.com/andrewtyl/contact-tracker-api">here</a>.</p>
+                    <p>This Express App is used for storing contacts securely in a PostgreSQL server. It uses AES256 encryption to store all the contact information. The Express App also uses HTTPS and will enforce connections to use it. If you want to try this yourself, you will need to be manually registered. Contact me if you are interested. You can view the full source code <a href="https://github.com/andrewtyl/contact-tracker-api">here</a>.</p>
                 </article>
             </div>    
         )
