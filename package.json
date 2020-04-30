@@ -1,15 +1,9 @@
 {
   "name": "www.ajessen.com",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Andrew Jessen-Tyler",
   "homepage": "http://ajessen.com/",
-  "license": "Apache-2.0",
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ],
+  "license": "CC-BY-4.0",
   "engines": {
     "node": "10.16.3",
     "npm": "6.14.4"

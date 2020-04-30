@@ -425,3 +425,8 @@ header > nav > ul {
   flex-wrap: nowrap;
   align-content: center;
 }
+
+#ccLicense-footer-icon {
+  margin-left: 10px;
+  margin-right: 5px;
+}

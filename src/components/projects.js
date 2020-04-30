@@ -42,6 +42,20 @@ let projectList = [
         imgAlt: "The project's webpage on AJessen.com.",
         text: `This website has so far been my best looking front-end project I've completed since graduating Thinkful. While not heavy on the React features aside from routing and navLink, the CSS on desktop with an animated navBar was fun to work on. I do want to impliment a "carousel" feature later, which will improve not only the presentation on both desktop and mobile, but also the user experience on mobile devices. Due to the lack of a carousel feature, I decided the presentation was best for now on mobile in a "dekstop" view. The site will need a massive rework for mobile-first, at which time I hope my UI skills have improved. I expect to continue to update it as my skills are refined and improve over the coming years.`,
         URL: "https://github.com/andrewtyl/www.ajessen.com"
+    },
+    {
+        title: "Project Offline",
+        imgSrc: require('../assets/projectOffline.png'),
+        imgAlt: "Project Offline Website",
+        text: `This was just a simple react one pager I made to use on "offline" applications. Nothing special, but it's useful for making sure I keep my domain urls up and running something as feedback for users trying to access them. Much better and visually appealing than a simple 404 error.`,
+        URL: "http://offline.ajessen.com/"
+    },
+    {
+        title: "Contact Tracker (API)",
+        imgSrc: require('../assets/contactTrackerAPI.png'),
+        imgAlt: "The Read Me file for the Contact Tracker API on Github",
+        text: `This Express App is used for storing contacts securely in a PostgreSQL server. I made this app just as a simple skills demonstration for my portfolio. It uses AES256 encryption to store all the contact information, and bases it's key off of the user's password so even admins can't see them. Due to this encryption, it does trade off with efficiency. But due to the small scale nature of this app, this doesn't seem to be much of an issue. The Express App also uses HTTPS and will enforce connections to use it. If you want to try this yourself, you will need an admin to manually register you. Contact me if you are interested. You can still try the open routes, such as /test/ until a user is generated for you. Please note that the live app is set to auto sleep (to save money) and you may see an error page if no requests have been made in the last 30 minutes. Retry your request in 10-15 seconds and it should be up and running.`,
+        URL: "https://contacts-api.ajessen.com/"
     }
 
 ]

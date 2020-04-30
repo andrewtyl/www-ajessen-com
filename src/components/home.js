@@ -17,9 +17,9 @@ class Home extends React.Component {
                     <p id="home-contact"><a href="/contact">Contact Now</a></p>
                 </main>
                 <article id="homepage_featured_project">
-                    <h3>Featured Project: This Website!</h3>
-                    <img src={require('../assets/wwwajessencom.png')} alt="Featured Project"></img>
-                    <p>This website has so far been my best looking front-end project I've completed since graduating Thinkful. While not heavy on the React features aside from routing and navLink, the CSS on desktop with an animated navBar was fun to work on. I do want to impliment a "carousel" feature later, which will improve not only the presentation on both desktop and mobile, but also the user experience on mobile devices. Due to the lack of a carousel feature, I decided the presentation was best for now on mobile in a "dekstop" view. The site will need a massive rework for mobile-first, at which time I hope my UI skills have improved. I expect to continue to update it as my skills are refined and improve over the coming years. You can view the source code <a href="https://github.com/andrewtyl/www.ajessen.com/">here</a>.</p>
+                    <h3>Featured Project: Contact Tracker (API)</h3>
+                    <img src={require('../assets/contactTrackerAPI.png')} alt="Featured Project"></img>
+                    <p>This Express App is used for storing contacts securely in a PostgreSQL server. It uses AES256 encryption to store all the contact information The Express App also uses HTTPS and will enforce connections to use it. If you want to try this yourself, you will need to be manually registered. Contact me if you are interested. You can view the full source code <a href="https://github.com/andrewtyl/contact-tracker-api">here</a>.</p>
                 </article>
             </div>    
         )
