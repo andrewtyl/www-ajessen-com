@@ -1,4 +1,4 @@
-# AJessen.com [![Build Status](https://travis-ci.com/andrewtyl/www.ajessen.com.svg?branch=master)](https://travis-ci.com/andrewtyl/www.ajessen.com)
+# AJessen.com [![Build Status](https://travis-ci.com/andrewtyl/www.ajessen.com.svg?branch=master)](https://travis-ci.com/andrewtyl/www-ajessen-com)
 
 ### Owned, Created by, and Managed by Andrew Jessen-Tyler
 
