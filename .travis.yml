@@ -1,13 +1,15 @@
 language: node_js
 node_js: 10
 deploy:
+  provider: heroku
   app: www-ajessen-com
   on:
     branch: master
-    # :
-    edge: true
-  provider: heroku
   api_key:
-    secure: kTMRs66ai+3itZcbydGcrxpaP1vTdb3NIpY6nUxnOhf39Znyav+NkJ3YDXMZmkeDO/jD3keFhtb8bBZbgr7UA3H3iTUPptkRfhir2IBKjRhwqdIc5DdHmw0HOidKPMlRQhZwzGXEnEEpaQEuAX+3ZRlRACUxPpv6cVEXgDqMPsXgBGKDjj0bgfDFASLXNvnS02WrNYL8q+RsNRrOu+fsIgy0tBB9EFwRRh2VDjMVit74d4raBUxs8k8T/5IgATHJ7teTJqIRz6cyqDex4qnyzmsfcFTrind6wCKw1zT7Ra/U4V35bOAQU9janM8vrqCLXnusnis03QgH+mqDecBC7g3JdpH2WKn39t8sjDD7x20FZo8446eLOmr6YQElzvyn4MIVMNlDFU6zDPCYDqViP6JQBELI9BPSTuLMxS2sw/arM8nud5/E7AhMfW4o50oTEUoqcPWE0tbcdzpSPMJUZHEecqnVS5aY+i/oCH5d2f49O7D7rEWdaFrDHA5AE/J3nzDDow3U+tuDlaLXBLhEKfhLG0n+xUZjPU2xL/v0Q1HePUodUWdTqTA7EGuhxrhCH6lC1Rs18C1YgOOvmb0p0SKwhvD+XfqvWasVc6pFRykCKkC9ey1GvKJwn68WWqdZ8CgqTd+MOSWB5XpWfzr6NgyUcGExgSPD0SQhWD3I5zo=
-notifications: 
-  email: andrewtyl.pro@gmail.com
+    secure: hV2myChdTgMHCECryW4hvefrqBOJ9XIfDZRov1DFzS2u1XOlTTWzeto8P9jfUCFJXLjqr/0YLy4nBnXygDA0uShMjvUIFMzatHi/Vg6MF/WHhfWtqUEdW5tGfM0Iz/LrF3SKnE84v5OUeIo/dgnC9Es48NkKUbYslIxzoU4M6XMmRZ/RBfzqB7mnBLUcYG7TNsPQNGEjhGtX3WeizS/BqmvBPYELAyw70w+oC/ip6PvFP5R6Q+5LztXuM3PIW1fhv2Qr0SzdSjwEIE1KtjXmD7CB1+gk58JsWRWply0uJNMRY+EQO9tp1/xVW9ahssAsCMyFRZmLEiVAjRFlEf0ToUN1XPvnX5P1Xz0VLDG+bRy/BikWEa5PzZjNwmbLGn9Mdh2WsHrxCUg6tKc0ivSUlqTPXMPWmTgBARpNH28qvCmwSDTUpZUjL5i5WtLHjRZEUrInSMZBiw+J8zloXu8LWgcMKgv241i95oOLbqRLvP5R27JZNqL0UIAF9U0ACOUJBGMya/q3BMUSN96huwQq6QvULKNM1Kk8wq16GY9MSSY9IqB2GeaM9gzgvu3EIc9JxnKpXthtbjg3Cd/kPXVoSJWy271OzSaPIbrDpnxup7+YhWug/RHS5PElzX+fM7N4+Sfq8DVCawe7t+pBOuvrOgGJJzjgnvi0dB+jclWrb1M=
+notifications:
+  email:
+    recipients: 
+      - travis-deploys@ajessen.com
+    on_success: always
+    on_failure: always
