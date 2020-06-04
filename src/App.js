@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HttpsRedirect from 'react-https-redirect';
+//import HttpsRedirect from 'react-https-redirect';
 import './styles//App.css';
 import './styles/normalize.css'
 import Header from './components/header'
@@ -15,7 +15,7 @@ import FourOhFour from './components/404';
 class App extends Component {
   render() {
     return (
-      <HttpsRedirect>
+      //<HttpsRedirect>
       <Router>
         <Header />
         <Switch>
@@ -29,7 +29,7 @@ class App extends Component {
         </Switch>
         <Footer />
       </Router>
-      </HttpsRedirect>
+      //</HttpsRedirect>
     )
   }
 }
